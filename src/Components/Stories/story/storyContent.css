@@ -1,0 +1,201 @@
+/*Styling for article card form section*/
+
+.btn {
+  /* color: #ffffff;
+  background: #34a853; */
+  /* position: absolute; */
+  /* bottom: 10px;
+  left: 250px; */
+  /* display: flex;
+  
+  justify-content: center;
+  align-items: center; */
+  color:#34a853;
+  text-decoration: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+  width: 167px;
+  height: 44px;
+  margin: auto;
+  padding: 12px 16px;
+  border-radius: 6px;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #98a2b3;
+}
+.card-column {
+  width: 715px;
+  /* height: 434px; */
+   height: auto;
+  /* border: 1px solid gold; */
+  position: relative;
+
+  filter: drop-shadow(0px 0px 16px rgba(0, 0, 0, 0.08));
+  border-radius: 8px;
+}
+.card-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* overflow-y: auto; */
+}
+
+.card-head {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+  /* width: 109px;
+    height: 89px; */
+
+  /* background: #D9D9D9; */
+  /* border-radius: 8px; */
+}
+.card-details {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+}
+/* .Author{
+    padding-top:460px;
+} */
+
+.card-head h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 526px;
+  /* height: 174px; */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+
+  color: #101828;
+}
+
+/*Styling for email form section*/
+.form-row button {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 8px;
+
+  width: 124px;
+  height: 44px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  background: #34a853;
+  color: #ffffff;
+}
+
+.form-row input[type="email"] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 8px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  width: 241px;
+  height: 44px;
+
+  background: #fcfcfd;
+  border-radius: 6px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  position: relative;
+  width: 1024px;
+  height: 3666px;
+  left: 391px;
+  top: 134px;
+
+  box-sizing: border-box;
+  overflow-y: auto;
+  
+
+  /* border: 1px solid blueviolet; */
+}
+
+.email {
+  position: absolute;
+  width: 845px;
+  height: 381px;
+  left: 0px;
+  top: 3990px;
+  background: #37ad4b;
+
+  border-radius: 24px;
+  /* border: 1px solid red; */
+}
+
+.email .blogger-logo {
+  position: absolute;
+  left: 5.83%;
+  right: 2.83%;
+  top: 12.83%;
+  bottom: 2.84%;
+
+  width: 169px;
+  height: 48px;
+}
+
+.email .blogger-body {
+  position: absolute;
+  left: 6.83%;
+  top: 30.83%;
+  right: 2.83%;
+  bottom: 2.84%;
+}
+
+.email .email-icons {
+  position: absolute;
+  left: 58.83%;
+  top: 5.83%;
+  right: 2.83%;
+  bottom: 2.84%;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  width: 241px;
+  height: 44px;
+  gap: 8px;
+
+  position: absolute;
+  left: 5.83%;
+  bottom: 5%;
+}

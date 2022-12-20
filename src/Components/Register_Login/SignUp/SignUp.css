@@ -1,0 +1,226 @@
+.signup-row button {
+  font-size: 1rem;
+  font-weight: bold;
+
+  color: #ffffff;
+  background-color: #34a853;
+
+  border: none;
+  border-radius: 3px;
+
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.signup-row button:hover {
+  background-color: darkgreen;
+}
+
+.signup-row button:active {
+  background-color: darkgreen;
+}
+
+.background-signup {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #101828;
+  font-size: 1rem;
+
+  width: 100%;
+  height: 100%;
+  background: #f9fafb;
+}
+
+.signup-form-header {
+  text-align: center;
+  background: #f9fafb;
+  /* border: 1px solid red; */
+  border-radius: 3px;
+
+  width: 40%;
+  margin: 30px 0;
+  padding: 50px;
+}
+
+.signup-form-header img {
+  width: 64px;
+  height: 64px;
+}
+
+.signup-form-header h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.signup-form {
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08);
+  /* border: 1px solid orange; */
+  border-radius: 3px;
+
+  width: 40%;
+  height: auto;
+  padding: 50px;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.signup-row {
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.signup-row label {
+  margin-top: 12px;
+  display: flex;
+}
+
+.signup-row textarea {
+  background-color: #ffffff;
+  border: 1px solid #d6d9dc;
+  /* border: 1px solid green; */
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+  /* resize: none;
+  min-height: 50px; */
+}
+
+.signup-row .signup-about {
+  color: #999999;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.signup-row input[type="file"] {
+  width: 400px;
+  height: 30px;
+  display: flex;
+}
+.signup-row input[type="text"],
+.signup-row input[type="email"],
+.signup-row input[type="password"] {
+  background-color: #ffffff;
+  border: 1px solid #d6d9dc;
+  border-radius: 3px;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.already span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* width: 212px;
+  height: 20px; */
+  margin: 10px auto;
+  /* border: 1px solid yellow; */
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.already span a {
+  color: green;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 400px) {
+  .background {
+    margin: 0px;
+  }
+  .signup-form-header,
+  .signup-form {
+    width: 100%;
+  }
+
+  .signup-row {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 0px;
+  }
+
+  .signup-row input[type="text"],
+  .signup-row input[type="email"],
+  .signup-row input[type="password"],
+  .signup-row textarea {
+    width: 300px;
+    height: initial;
+  }
+
+  .already span {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .already span a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .signup-row button {
+    margin-left: 0px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  @media only screen and (min-width: 401px) and (max-width: 700px) {
+    .background {
+      margin: 0px;
+    }
+    .signup-form-header,
+    .signup-form {
+      width: 100px;
+    }
+
+    .signup-row {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0px;
+    }
+
+    .signup-row input[type="text"],
+    .signup-row input[type="email"],
+    .signup-row input[type="password"] .signup-row textarea {
+      width: 600px;
+      height: initial;
+    }
+
+    .already span {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+    }
+
+    .already span a {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .signup-row button {
+      margin-left: 0px;
+      width: 10px;
+      font-size: 0.2rem;
+      padding: 10px;
+    }
+  }
+}

@@ -1,0 +1,195 @@
+.modal-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(0, 0, 0, 0.5); */
+    background: #E5E5E5;
+    
+
+}
+
+.modal {
+    margin: 200px auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    height: 542px;
+width: 640px;
+box-sizing: border-box;
+border-radius: 12px;
+
+}
+.heading{
+    width: 178px;
+height: 36px;
+
+/* Headline 5/Bold */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+/* identical to box height, or 36px */
+
+
+/* Gray/900 */
+
+color: #212121;
+}
+.text1{
+    width: 430px;
+height: 20px;
+margin-bottom: 15px;
+
+/* Button Normal - 14 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+
+/* Grey 500 */
+
+color: #667085;
+}
+.nameLabel{
+    width: 39px;
+height: 20px;
+
+/* Button Normal - 14 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+
+/* Main Text */
+
+color: #101828;
+}
+.text2{
+    width: 244px;
+height: 20px;
+
+/* Button Normal - 14 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+
+/* Grey 400 */
+
+color: #98A2B3;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.topDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cancelButton{
+    height: 14px;
+   width: 14px;
+   }
+   .firstInput{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 16px;
+gap: 8px;
+
+width: 592px;
+height: 44px;
+margin-bottom: 10px;
+
+/* White */
+
+background: #FFFFFF;
+/* Grey 300 */
+
+border: 1px solid #D0D5DD;
+border-radius: 6px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+   }
+   .label{
+    width: 111px;
+height: 20px;
+
+/* Button Normal - 14 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+margin-top: 10px;
+margin-bottom: 10px;
+
+/* Main Text */
+
+color: #101828;
+   }
+.textArea{
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 16px;
+gap: 8px;
+
+width: 592px;
+height: 113px;
+
+/* White */
+
+background: #FFFFFF;
+/* Grey 300 */
+
+border: 1px solid #D0D5DD;
+border-radius: 6px;
+}
+.buttonDiv{
+    display: flex;
+    justify-content: end;
+
+}
